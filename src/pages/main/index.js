@@ -43,6 +43,10 @@ class Main extends Component {
     render(){
         const { products, page, product_info} = this.state;
         return(
+            <>
+            <header id='main-header'>
+                <Link id= 'js_hunt' to={'/'}>JSHunt</Link>
+            </header>
             <div className ="product-list">
                 {products.map(p => {
                     return(
@@ -60,6 +64,7 @@ class Main extends Component {
                     <button disabled={ page === product_info.pages }onClick={this.next_page}>Próximo</button>
                 </div>
             </div>
+            </>
         );
     }
 }

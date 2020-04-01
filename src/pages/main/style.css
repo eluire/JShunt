@@ -1,3 +1,19 @@
+#js_hunt:hover, #js_hunt:link, #js_hunt:active, #js_hunt:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+header#main-header {
+    width: 100%;
+    height: 60px;
+    background-color: #da552f;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
 .product-list {
     max-width: 700px;
     margin: 20px auto 0;
